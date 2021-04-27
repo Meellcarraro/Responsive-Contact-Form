@@ -1,0 +1,59 @@
+@media screen and ( max-width: 1000px  )
+    body
+        .container
+            flex-flow: column-reverse wrap
+            height: auto
+            .contact-form-container
+                padding: 50px 50px
+                margin: 50px 0px 0px 0px
+                position: static
+            .contact-info-container
+                height: 400px
+                width: calc( 100% - 150px )
+                position: relative
+                bottom: 40px
+                padding: 40px 40px 0px 40px
+                .contact-info-items
+                    .contact-info-item
+                        margin-bottom: 0px
+                .socialmedia
+                    margin-top: 0px
+                    margin-bottom: 30px
+                    
+
+
+@media screen and ( max-width: 790px  )
+    body
+        .container
+            .contact-form-container, .contact-info-container
+                width: 550px
+    
+    
+
+@media screen and ( max-width: 600px )
+    body
+        .container
+            .contact-info-container, .contact-form-container
+                width: calc( 100% - 10%)
+            .contact-form-container
+                h2
+                    font-size: 25px
+                .form
+                    .form-item
+                        width: 100%
+                        margin-bottom: 30px
+            .contact-info-container
+                .contact-info-items
+                    .contact-info-item
+                        span 
+                            font-size: 12px
+                .socialmedia
+                    .social-item
+                        width: 20px
+                        height: 20px
+
+@media screen and ( max-width: 400px )
+    body
+        .container
+            .contact-form-container
+                padding: 50px 40px
